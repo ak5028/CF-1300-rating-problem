@@ -2,7 +2,7 @@
 using namespace std;
 
 int a[505][505];
-int main(){
+int main()
     int test;cin>>test;
     while(test--){
         int n;cin>>n;
