@@ -10,7 +10,7 @@ int main(){
                         string s;cin>>s;
                         a.push_back(s);
                 }
-                int x1=0,y1=0,x2=n-1,y2=m-1,cnt=0;string f="1543";
+                int x1=0,y1=0,x2=n-1,y2=m-1,cnt=0; string f="1543";
                 while(x1<=x2 && y1<=y2){
                         string s="";
                         for(int i=y1;i<=y2;i++){s+=a[x1][i];}
