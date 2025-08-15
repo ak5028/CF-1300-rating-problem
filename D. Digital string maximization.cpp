@@ -5,6 +5,7 @@ int main(){
     int test;cin>>test;
     while(test--){
         string s;cin>>s;
+     
         for(int i=0;i<s.size();i++){
             int best=s[i]-'0',pos=i;
             for(int j=i;j<min(i+10,int(s.size()));j++){
