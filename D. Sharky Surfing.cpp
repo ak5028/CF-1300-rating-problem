@@ -20,7 +20,7 @@ int main(){
                                 now+=q.top();
                                 q.pop();
                         }
-                        if(now<r[i]-l[i]+2){f=false;break;}
+                        if(now<r[i]-l[i]+2){f=false; break;}
                 }
                 if(f){cout<<ans<<endl;}
                 else{cout<<-1<<endl;}
