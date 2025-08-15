@@ -21,8 +21,7 @@ int main(){
         for(int i=1;i<=d+1;i++){
             if(a[i]!=1){ans=1;break;}
         }
-        if(ans==-1){ans=2;}
-        
+        if(ans==-1){ans=2;}    
         cout<<ans<<endl;}
     }
 }
