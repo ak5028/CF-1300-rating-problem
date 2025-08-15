@@ -6,6 +6,7 @@ int main(){
     while(test--){
         int n;cin>>n;
         string s;cin>>s;
+     
         if(s[0]=='p'){
             int x=0;
             for(int i=1;i<n;i++){if(s[i]=='s'){x++;break;}}
