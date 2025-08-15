@@ -22,6 +22,7 @@ int main(){
             }
             ans[left+1]=i;
         }
-        for(int i=1;i<=n;i++){cout<<ans[i]<<" ";}cout<<endl;
+        for(int i=1;i<=n;i++){cout<<ans[i]<<" ";}
+     cout<<endl;
     }
 }
