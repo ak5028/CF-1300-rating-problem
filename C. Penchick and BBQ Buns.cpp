@@ -20,8 +20,7 @@ int main() {
 }
 
 /*
-Note that 1
- is a square number; thus, for even n
+Note that 1 is a square number; thus, for even n
 , the construction 1 1 2 2 3 3…n2 n2
  works.
 
